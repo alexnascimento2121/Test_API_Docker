@@ -1,0 +1,10 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: test_api
+  data:
+    mongodb:
+      uri: mongodb://{user}:{password}@localhost:27017
+      database: test
